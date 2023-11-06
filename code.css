@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'); |-| Importa as fontes Poppins com pesos 400, 600 e 700 do Google Fonts para serem usadas no site.
+ |-| 
+* { |-| Início do bloco de declaração para o seletor universal (*). Todas as regras dentro destas chaves serão aplicadas a todos os elementos no documento.
+    margin: 0; |-| Define a margem de todos os elementos como 0, eliminando qualquer margem padrão.
+    padding: 0; |-| Define o padding (espaçamento interno) de todos os elementos como 0, eliminando qualquer padding padrão.
+    list-style: none; |-| Remove os marcadores de lista (como pontos ou números) de elementos de lista, como <ul> (listas não ordenadas) e <ol> (listas ordenadas). Isso é útil quando você deseja criar uma lista sem marcadores.
+    text-decoration: none; |-| Remove a decoração de texto de todos os elementos.
+    box-sizing: border-box; |-| Altera o modo como a largura e altura de um elemento são calculadas. Com "border-box", a largura e altura incluem o padding e a borda, mas não a margem.
+    font-family: "Poppins", sans-serif; |-| Define a família de fontes como 'Poppins' e, caso não esteja disponível, usa uma fonte sans-serif genérica para todos os elementos.
+} |-| Fim do bloco de declaração para o seletor universal (*).
+ |-| 
+body { |-| Início do bloco de declaração para o seletor <body>. Todas as regras dentro destas chaves serão aplicadas ao elemento <body> do documento.
+    background-color: #2B2B2B; |-| Define a cor de fundo como um tom de cinza escuro (#2B2B2B) para o elemento <body>.
+} |-| Fim do bloco de declaração para o seletor <body>.
+ |-| 
+header { |-| Início do bloco de declaração para o seletor <header>. Todas as regras dentro destas chaves serão aplicadas ao elemento <header> do documento.
+    display: flex; |-| Define um contêiner flexível para os elementos dentro de <header>, permitindo um layout flexível.
+    justify-content: space-between; |-| Distribui o espaço disponível igualmente entre os elementos filhos em <header>, empurrando-os para os lados opostos do contêiner.
+    padding: 33px 50px; |-| Define o espaçamento interno de <header>, com 33px no topo/baixo e 50px à esquerda/direita.
+} |-| Fim do bloco de declaração para o seletor <header>.
+|-|
+.header_logo { |-| Início do bloco de declaração para os elementos com a classe .header_logo. Todas as regras dentro destas chaves serão aplicadas aos elementos com a classe .header_logo no documento.
+    color: #FFF; |-| Define a cor do texto como branco (#FFF) para os elementos com a classe .header_logo.
+    font-size: 24px; |-| Define o tamanho da fonte como 24px para os elementos com a classe .header_logo.
+    font-weight: 600; |-| Define o peso da fonte como 600 (indicando uma fonte semibold) para os elementos com a classe .header_logo.
+    line-height: 24px; |-| Define a altura da linha como 24px para os elementos com a classe .header_logo, garantindo um espaçamento uniforme entre as linhas.
+} |-| Fim do bloco de declaração para os elementos com a classe .header_logo.
+ |-| 
+.actions { |-| Início do bloco de declaração para os elementos com a classe .actions. Todas as regras dentro destas chaves serão aplicadas aos elementos com a classe .actions no documento.
+    display: flex; |-| Define um contêiner flexível para os elementos dentro de .actions, permitindo um layout flexível.
+    align-items: center; |-| Centraliza os itens ao longo do eixo transversal do contêiner, no centro verticalmente, dentro de .actions.
+    gap: 30px; |-| Define o espaçamento horizontal entre os elementos como 30px dentro de .actions.
+} |-| Fim do bloco de declaração para os elementos com a classe .actions.
+ |-| 
+ .actions a { |-| Início do bloco de declaração para os links dentro de elementos com a classe .actions. Todas as regras dentro destas chaves serão aplicadas aos links dentro de elementos com a classe .actions no documento.
+    color: #FFF; |-| Define a cor do texto como branco (#FFF) para os links dentro de .actions.
+    font-size: 18px; |-| Define o tamanho da fonte como 18px para os links dentro de .actions.
+    font-weight: 400; |-| Define o peso da fonte como 400 (indicando uma fonte regular) para os links dentro de .actions.
+    line-height: 32px; |-| Define a altura da linha como 32px para os links dentro de .actions, garantindo um espaçamento uniforme entre as linhas.
+} |-| Fim do bloco de declaração para os links dentro de .actions.
+ |-| 
+.actions button { |-| Início do bloco de declaração para os botões dentro de elementos com a classe .actions. Todas as regras dentro destas chaves serão aplicadas aos botões dentro de elementos com a classe .actions no documento.
+    padding: 9px 61px; |-| Define o espaçamento interno do botão, com 9px no topo/baixo e 61px à esquerda/direita.
+    border: none; |-| Remove a borda do botão.
+    border-radius: 15px; |-| Define um raio de borda de 15px, criando cantos arredondados para o botão.
+    background: #BFAFF2; |-| Define a cor de fundo como um tom de roxo (#BFAFF2) para o botão.
+    color: #333; |-| Define a cor do texto como um tom de cinza escuro (#333) para o botão.
+    font-size: 18px; |-| Define o tamanho da fonte como 18px para o botão.
+    font-weight: 400; |-| Define o peso da fonte como 400 (indicando uma fonte regular) para o botão.
+    line-height: 32px; |-| Define a altura da linha como 32px para o botão, garantindo um espaçamento uniforme entre as linhas.
+    cursor: pointer; |-| Define o cursor do mouse como um ponteiro quando o mouse estiver sobre o botão, indicando que é interativo.
+} |-| Fim do bloco de declaração para os botões dentro de .actions.
+ |-| 
+ main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+ |-| 
+.main_description h1{
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 90px;
+}
+ |-| 
+.main_description p { |-| Início do bloco de declaração para os parágrafos dentro de elementos com a classe .main_description. Todas as regras dentro destas chaves serão aplicadas aos parágrafos dentro de elementos com a classe .main_description no documento.
+    color: #FFF; |-| Define a cor do texto como branco (#FFF) para os parágrafos dentro de .main_description.
+    font-size: 18px; |-| Define o tamanho da fonte como 18px para os parágrafos dentro de .main_description.
+    font-weight: 400; |-| Define o peso da fonte como 400 (indicando uma fonte regular) para os parágrafos dentro de .main_description.
+    line-height: 32px; |-| Define a altura da linha como 32px para os parágrafos dentro de .main_description, garantindo um espaçamento uniforme entre as linhas.
+    opacity: 0.4; |-| Define a opacidade como 0.4, tornando o texto ligeiramente transparente.
+    margin: 10px; |-| Define a margem de 10px para todos os lados dos parágrafos dentro de .main_description.
+} |-| Fim do bloco de declaração para os parágrafos dentro de .main_description.
+|-| 
+.main_description button { |-| Início do bloco de declaração para os botões dentro de elementos com a classe .main_description. Todas as regras dentro destas chaves serão aplicadas aos botões dentro de elementos com a classe .main_description no documento.
+    border: none; |-| Remove a borda do botão.
+    border-radius: 15px; |-| Define um raio de borda de 15px, criando cantos arredondados para o botão.
+    padding: 9px 37px; |-| Define o espaçamento interno do botão, com 9px no topo/baixo e 37px à esquerda/direita.
+    background: #F8D57E; |-| Define a cor de fundo como um tom de amarelo (#F8D57E) para o botão.
+    font-size: 18px; |-| Define o tamanho da fonte como 18px para o botão.
+    color: #333; |-| Define a cor do texto como um tom de cinza escuro (#333) para o botão.
+    margin-top: 50px; |-| Define uma margem superior de 50px para o botão.
+} |-| Fim do bloco de declaração para os botões dentro de .main_description.
+ |-| 
+ .mainImg { |-| Início do bloco de declaração para os elementos com a classe .mainImg. Todas as regras dentro destas chaves serão aplicadas aos elementos com a classe .mainImg no documento.
+    background: rgb(59, 59, 59) 50% / cover no-repeat; |-| Define uma imagem de fundo para os elementos com a classe .mainImg. A imagem é centralizada (50%) e cobre completamente o elemento (cover), sem repetições.
+    border-radius: 28px; |-| Define um raio de borda de 28px, criando cantos arredondados para os elementos com a classe .mainImg.
+} |-| Fim do bloco de declaração para os elementos com a classe .mainImg.
+ |-|
+.img { |-| Início do bloco de declaração para os elementos com a classe .img. Todas as regras dentro destas chaves serão aplicadas aos elementos com a classe .img no documento.
+    width: 25rem; |-| Define a largura dos elementos com a classe .img como 25rem.
+} |-| Fim do bloco de declaração para os elementos com a classe .img.
