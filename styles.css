@@ -51,7 +51,7 @@ header {
     cursor: pointer;
 }
 
-main {
+ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -83,7 +83,7 @@ main {
     color: #333;
     margin-top: 50px;
     cursor: pointer;
-}
+} 
 
 .mainImg {
     background:rgb(59, 59, 59) 50% / cover no-repeat;

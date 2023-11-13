@@ -51,19 +51,19 @@ header { |-| Início do bloco de declaração para o seletor <header>. Todas as 
     cursor: pointer; |-| Define o cursor do mouse como um ponteiro quando o mouse estiver sobre o botão, indicando que é interativo.
 } |-| Fim do bloco de declaração para os botões dentro de .actions.
  |-| 
- main {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 50px;
-}
+ main { |-| Início do bloco de declaração para o seletor <main>. Todas as regras dentro destas chaves serão aplicadas ao elemento <main> do documento.
+    display: flex; |-| Define um contêiner flexível para os elementos dentro de <main>, permitindo um layout flexível.
+    align-items: center; |-| Centraliza os itens ao longo do eixo transversal do contêiner, no centro verticalmente, dentro de <main>.
+    justify-content: space-around; |-| Distribui o espaço disponível ao redor dos itens dentro de <main>, criando espaçamento uniforme.
+    margin-top: 50px; |-| Define uma margem superior de 50px para <main>.
+} |-| Fim do bloco de declaração para o seletor <main>.
  |-| 
-.main_description h1{
-    color: #FFF;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 90px;
-}
+.main_description h1 { |-| Início do bloco de declaração para os elementos <h1> dentro de elementos com a classe .main_description. Todas as regras dentro destas chaves serão aplicadas aos elementos <h1> dentro de elementos com a classe .main_description no documento.
+    color: #FFF; |-| Define a cor do texto como branco (#FFF) para os elementos <h1> dentro de .main_description.
+    font-size: 60px; |-| Define o tamanho da fonte como 60px para os elementos <h1> dentro de .main_description.
+    font-weight: 600; |-| Define o peso da fonte como 600 (indicando uma fonte semibold) para os elementos <h1> dentro de .main_description.
+    line-height: 90px; |-| Define a altura da linha como 90px para os elementos <h1> dentro de .main_description, garantindo um espaçamento uniforme entre as linhas.
+} |-| Fim do bloco de declaração para os elementos <h1> dentro de .main_description.
  |-| 
 .main_description p { |-| Início do bloco de declaração para os parágrafos dentro de elementos com a classe .main_description. Todas as regras dentro destas chaves serão aplicadas aos parágrafos dentro de elementos com a classe .main_description no documento.
     color: #FFF; |-| Define a cor do texto como branco (#FFF) para os parágrafos dentro de .main_description.
@@ -73,7 +73,7 @@ header { |-| Início do bloco de declaração para o seletor <header>. Todas as 
     opacity: 0.4; |-| Define a opacidade como 0.4, tornando o texto ligeiramente transparente.
     margin: 10px; |-| Define a margem de 10px para todos os lados dos parágrafos dentro de .main_description.
 } |-| Fim do bloco de declaração para os parágrafos dentro de .main_description.
-|-| 
+ |-|  
 .main_description button { |-| Início do bloco de declaração para os botões dentro de elementos com a classe .main_description. Todas as regras dentro destas chaves serão aplicadas aos botões dentro de elementos com a classe .main_description no documento.
     border: none; |-| Remove a borda do botão.
     border-radius: 15px; |-| Define um raio de borda de 15px, criando cantos arredondados para o botão.
@@ -84,7 +84,7 @@ header { |-| Início do bloco de declaração para o seletor <header>. Todas as 
     margin-top: 50px; |-| Define uma margem superior de 50px para o botão.
 } |-| Fim do bloco de declaração para os botões dentro de .main_description.
  |-| 
- .mainImg { |-| Início do bloco de declaração para os elementos com a classe .mainImg. Todas as regras dentro destas chaves serão aplicadas aos elementos com a classe .mainImg no documento.
+.mainImg { |-| Início do bloco de declaração para os elementos com a classe .mainImg. Todas as regras dentro destas chaves serão aplicadas aos elementos com a classe .mainImg no documento.
     background: rgb(59, 59, 59) 50% / cover no-repeat; |-| Define uma imagem de fundo para os elementos com a classe .mainImg. A imagem é centralizada (50%) e cobre completamente o elemento (cover), sem repetições.
     border-radius: 28px; |-| Define um raio de borda de 28px, criando cantos arredondados para os elementos com a classe .mainImg.
 } |-| Fim do bloco de declaração para os elementos com a classe .mainImg.
